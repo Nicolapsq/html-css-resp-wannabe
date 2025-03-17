@@ -140,16 +140,31 @@ img {
         max-width: 480px;
         width: 100%;
     }
-}
 
-@media screen and ( max-width: 480px ){
     .row{
         flex-direction: column;
     }
-}
 
-@media screen and ( max-width: 480px ){
     .row .col{
         width: 100%;
     }
+
+    body{
+        margin-bottom: -3rem;
+    }
+
+    .text-center{
+        margin: 0;
+        padding-bottom: 3rem;
+    }
+
+    .why-us{
+        background-color: black;
+    }
+
+    .why-us .container{
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
 }
